@@ -54,9 +54,10 @@ const dataset = [
   { name: "制造业", values: [30] },
   { name: "OA", values: [15] },
   { name: "SASS", values: [15] },
-  { name: "低代码平台", values: [5] },
+  { name: "低代码", values: [5] },
   { name: "物联网", values: [5] },
   { name: "WEB3", values: [10] },
+  { name: "教育", values: [15] },
 ];
 
 </script>

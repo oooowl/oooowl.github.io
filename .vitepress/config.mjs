@@ -9,14 +9,22 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "项目经历", link: "/project" },
+      { text: "项目经历", link: "/info" },
       { text: "项目统计", link: "/chart" },
     ],
 
     sidebar: [
       {
+        text: "简介",
+        link: "/info",
+      },
+      {
         text: "项目经历",
-        items: [{ text: "Examples", link: "/project" }],
+        items: [{ text: "赫德学校", link: "/project/hdschool" }],
+      },
+      {
+        text: "项目统计",
+        link: "/chart",
       },
     ],
 
