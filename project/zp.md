@@ -5,6 +5,7 @@
 ![alt text](image/zp.png)
 
 ::: info 项目说明
+单页翻屏交互  
 负责前端开发,动效开发
 :::
 
