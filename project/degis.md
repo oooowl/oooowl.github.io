@@ -1,4 +1,4 @@
-# degis - Web3 保险协议
+# degis - DeFi 保险协议
 
 [https://www.zeropartner.com/](https://www.zeropartner.com/)
 
