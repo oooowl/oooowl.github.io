@@ -9,14 +9,14 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "项目展示", link: "/project/index" },
+      { text: "项目展示", link: "/project" },
       { text: "项目统计", link: "/chart" },
     ],
 
     sidebar: [
       {
         text: "简介",
-        link: "/project/index",
+        link: "/project",
       },
       {
         text: "项目展示",
