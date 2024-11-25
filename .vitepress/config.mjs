@@ -9,18 +9,21 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "项目展示", link: "/info" },
+      { text: "项目展示", link: "/project/index" },
       { text: "项目统计", link: "/chart" },
     ],
 
     sidebar: [
       {
         text: "简介",
-        link: "/info",
+        link: "/project/index",
       },
       {
         text: "项目展示",
-        items: [{ text: "赫德学校", link: "/project/hdschool" }],
+        items: [
+          { text: "赫德双语学校", link: "/project/hdschool" },
+          { text: "上海零动", link: "/project/zp" },
+        ],
       },
       {
         text: "项目统计",
