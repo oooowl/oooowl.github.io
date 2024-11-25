@@ -10,6 +10,6 @@
 :::
 
 ::: tip 技术栈
-基于 nuxt 构建  
+基于 nuxt2\(vue2\) 构建  
 使用 vue-i18n/ vuex/ scss/ lodash/ elementui/ swiper/ baidu 地图
 :::

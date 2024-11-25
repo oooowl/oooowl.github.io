@@ -10,6 +10,6 @@ degis - NFT 活动页面,生成活动证书图片
 :::
 
 ::: tip 技术栈
-基于 nuxt 构建  
+基于 nuxt2\(vue2\) 构建  
 使用 googleFont/ html2canvas/ scss/ elementui/ swiper/
 :::

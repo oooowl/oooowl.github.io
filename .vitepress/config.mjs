@@ -24,7 +24,7 @@ export default defineConfig({
           { text: "赫德双语学校官网", link: "/project/hdschool" },
           { text: "上海零动官网", link: "/project/zp" },
           { text: "375Labs官网", link: "/project/375labs" },
-          { text: "degis - DeFi保险协议", link: "/project/degis" },
+          { text: "degis - DeFi 保险协议", link: "/project/degis" },
           { text: "degis - NFT", link: "/project/degis-nft" },
           { text: "furion - NFT Dapps", link: "/project/furion" },
         ],
