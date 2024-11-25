@@ -2,7 +2,7 @@
 
 [https://www.hdschools.org](https://www.hdschools.org/zh_cn)
 
-![alt text](image-hdschool.png)
+![alt text](image/hdschool.png)
 
 ::: info 项目说明
 赫德双语学校官网项目，支持中英双语展示，支持多校区多语言内容管理  

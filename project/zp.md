@@ -1,12 +1,12 @@
 # 上海零动
 
-[https://www.hdschools.org](https://www.zeropartner.com/)
+[https://www.zeropartner.com/](https://www.zeropartner.com/)
 
-![alt text](image-zp.png)
+![alt text](image/zp.png)
 
 ::: info 项目说明
 上海零动官网项目  
-负责前端开发
+负责前端开发,动效开发
 :::
 
 ::: tip 技术栈

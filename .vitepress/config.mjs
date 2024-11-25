@@ -23,6 +23,7 @@ export default defineConfig({
         items: [
           { text: "赫德双语学校", link: "/project/hdschool" },
           { text: "上海零动", link: "/project/zp" },
+          { text: "375Labs", link: "/project/375labs" },
         ],
       },
       {
