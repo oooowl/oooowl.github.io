@@ -1,11 +1,10 @@
-# 375Labs
+# 375Labs 官网
 
 [https://375labs.org/en](https://375labs.org/en)
 
 ![alt text](image/375.png)
 
 ::: info 项目说明
-375Labs 官网项目  
 负责前端开发,动效开发
 :::
 
