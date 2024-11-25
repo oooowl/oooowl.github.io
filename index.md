@@ -9,7 +9,7 @@ hero:
 
   actions:
     - theme: brand
-      text: 项目经历
+      text: 项目展示
       link: /info
     - theme: alt
       text: 项目统计

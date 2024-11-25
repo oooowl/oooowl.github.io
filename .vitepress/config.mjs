@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "项目经历", link: "/info" },
+      { text: "项目展示", link: "/info" },
       { text: "项目统计", link: "/chart" },
     ],
 
@@ -19,7 +19,7 @@ export default defineConfig({
         link: "/info",
       },
       {
-        text: "项目经历",
+        text: "项目展示",
         items: [{ text: "赫德学校", link: "/project/hdschool" }],
       },
       {
