@@ -1,14 +1,15 @@
-# degis - DeFi 保险协议
+# degis - DeFi
 
-[https://www.zeropartner.com/](https://www.zeropartner.com/)
+[https://degis-io.vercel.app/](https://degis-io.vercel.app/)
 
-![alt text](image/zp.png)
+![alt text](image/degis.png)
 
 ::: info 项目说明
+web3 航班延误提供保险，代币投注开奖
 负责前端开发,动效开发
 :::
 
 ::: tip 技术栈
 基于 nuxt2\(vue2\) 构建  
-使用 lottie/ scss/ elementui/ swiper/
+使用 lodash/ scss/ elementui/ swiper/
 :::

@@ -5,7 +5,7 @@
 ![alt text](image/degis-nft.png)
 
 ::: info 项目说明
-degis - NFT 活动页面,生成活动证书图片  
+生成活动证书图片  
 负责前端开发,动效开发
 :::
 
