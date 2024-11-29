@@ -27,6 +27,7 @@ export default defineConfig({
           { text: "degis - DeFi", link: "/project/degis" },
           { text: "degis - NFT", link: "/project/degis-nft" },
           { text: "furion - NFT Dapps", link: "/project/furion" },
+          { text: "理想花园 - 物联网小程序", link: "/project/garden" },
         ],
       },
       {
