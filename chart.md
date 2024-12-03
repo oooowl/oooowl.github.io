@@ -64,7 +64,9 @@ const dataset = [
 const loading = ref(true);
 
 onMounted(() => {
-  loading.value = false;
+  setTimeout(() => {
+    loading.value = false;
+  },1000)
 })
 
 </script>
@@ -84,6 +86,7 @@ onMounted(() => {
     component="VueUiDonut"
     :dataset="dataset"
     :config="config"
+    v-else
 />
 
 <style>
