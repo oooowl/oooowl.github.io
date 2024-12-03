@@ -5,6 +5,7 @@
 <script setup>
 import { VueDataUi } from "vue-data-ui";
 import "vue-data-ui/style.css";
+import { ref,onMounted } from "vue";
 
 const config = {
   userOptions: {
@@ -60,7 +61,23 @@ const dataset = [
   { name: "教育", values: [15] },
 ];
 
+const loading = ref(true);
+
+onMounted(() => {
+  loading.value = false;
+})
+
 </script>
+
+<div style="display: flex; justify-content: center; align-items: center;height:480px" v-if="loading">
+  <div class="loader">
+      <div class="orbe" style="--index: 0"></div>
+      <div class="orbe" style="--index: 1"></div>
+      <div class="orbe" style="--index: 2"></div>
+      <div class="orbe" style="--index: 3"></div>
+      <div class="orbe" style="--index: 4"></div>
+  </div>
+</div>
 
 <VueDataUi
     style="margin-top: 30px"
@@ -68,3 +85,48 @@ const dataset = [
     :dataset="dataset"
     :config="config"
 />
+
+<style>
+.loader {
+  --size-loader: 50px;
+  --size-orbe: 10px;
+  width: var(--size-loader);
+  height: var(--size-loader);
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.orbe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  --delay: calc(var(--index) * 0.1s);
+  animation: orbit7456 ease-in-out 1.5s var(--delay) infinite;
+  opacity: calc(1 - calc(0.2 * var(--index)));
+}
+
+.orbe::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: var(--size-orbe);
+  height: var(--size-orbe);
+  background-color: #5f8fc9;
+  box-shadow: 0px 0px 20px 2px #5f8fc9;
+  border-radius: 50%;
+}
+
+@keyframes orbit7456 {
+  0% {
+  }
+
+  80% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style>
