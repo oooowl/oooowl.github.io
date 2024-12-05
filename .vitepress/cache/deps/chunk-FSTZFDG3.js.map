@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../node_modules/vue-data-ui/dist/PackageVersion-wqab02xF.js"],
-  "sourcesContent": ["import { openBlock as e, createElementBlock as t, toDisplayString as o, unref as r } from \"vue\";\nconst n = \"2.4.21\", s = { \"aria-hidden\": \"true\" }, p = {\n  __name: \"PackageVersion\",\n  setup(a) {\n    return (c, _) => (e(), t(\"desc\", s, \"Composed with Vue Data UI \" + o(r(n)), 1));\n  }\n};\nexport {\n  p as _\n};\n"],
-  "mappings": ";;;;;;;;AACA,IAAM,IAAI;AAAV,IAAoB,IAAI,EAAE,eAAe,OAAO;AAAhD,IAAmD,IAAI;AAAA,EACrD,QAAQ;AAAA,EACR,MAAM,GAAG;AACP,WAAO,CAAC,GAAG,OAAO,UAAE,GAAG,mBAAE,QAAQ,GAAG,+BAA+B,gBAAE,MAAE,CAAC,CAAC,GAAG,CAAC;AAAA,EAC/E;AACF;",
-  "names": []
-}
