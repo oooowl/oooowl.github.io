@@ -5,7 +5,7 @@
 <script setup>
 import { VueDataUi } from "vue-data-ui";
 import "vue-data-ui/style.css";
-import { ref,onMounted } from "vue";
+import { ref,onMounted,nextTick  } from "vue";
 
 const config = {
   userOptions: {
@@ -64,9 +64,9 @@ const dataset = [
 const loading = ref(true);
 
 onMounted(() => {
-  setTimeout(() => {
+  nextTick (() => {
     loading.value = false;
-  },1000)
+  })
 })
 
 </script>
@@ -82,11 +82,11 @@ onMounted(() => {
 </div>
 
 <VueDataUi
-    style="margin-top: 30px"
-    component="VueUiDonut"
-    :dataset="dataset"
-    :config="config"
-    v-else
+style="margin-top: 30px"
+component="VueUiDonut"
+:dataset="dataset"
+:config="config"
+v-show="!loading"
 />
 
 <style>

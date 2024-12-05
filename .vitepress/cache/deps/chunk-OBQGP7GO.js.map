@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/vue-data-ui/dist/useNestedProp-CRAUOmT5.js"],
+  "sourcesContent": ["import { A as o, B as n } from \"./index-hV0hU1iE.js\";\nfunction c({ defaultConfig: e, userConfig: r }) {\n  if (!Object.keys(r || {}).length)\n    return e;\n  const t = o({\n    defaultConfig: e,\n    userConfig: r\n  });\n  return n(t);\n}\nexport {\n  c as u\n};\n"],
+  "mappings": ";;;;;;AACA,SAAS,EAAE,EAAE,eAAe,GAAG,YAAY,EAAE,GAAG;AAC9C,MAAI,CAAC,OAAO,KAAK,KAAK,CAAC,CAAC,EAAE;AACxB,WAAO;AACT,QAAM,IAAI,GAAE;AAAA,IACV,eAAe;AAAA,IACf,YAAY;AAAA,EACd,CAAC;AACD,SAAO,GAAE,CAAC;AACZ;",
+  "names": []
+}

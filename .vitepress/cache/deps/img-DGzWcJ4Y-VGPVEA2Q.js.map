@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../node_modules/vue-data-ui/dist/img-DGzWcJ4Y.js"],
+  "sourcesContent": ["import i from \"./html2canvas.esm-d2sM-0Wm.js\";\nfunction l({ domElement: n, fileName: t, format: o = \"png\" }) {\n  if (n)\n    return new Promise((r, c) => {\n      const e = document.createElement(\"a\");\n      i(n, { scale: 2 }).then((a) => {\n        e.href = a.toDataURL(`image/${o}`), e.download = `${t}.${o}`, e.click(), e && e.remove(), r();\n      }).catch((a) => {\n        console.error(\"Error generating image:\", a), c(a);\n      });\n    });\n}\nexport {\n  l as default\n};\n"],
+  "mappings": ";;;;;AACA,SAAS,EAAE,EAAE,YAAY,GAAG,UAAU,GAAG,QAAQ,IAAI,MAAM,GAAG;AAC5D,MAAI;AACF,WAAO,IAAI,QAAQ,CAAC,GAAG,MAAM;AAC3B,YAAM,IAAI,SAAS,cAAc,GAAG;AACpC,SAAE,GAAG,EAAE,OAAO,EAAE,CAAC,EAAE,KAAK,CAAC,MAAM;AAC7B,UAAE,OAAO,EAAE,UAAU,SAAS,CAAC,EAAE,GAAG,EAAE,WAAW,GAAG,CAAC,IAAI,CAAC,IAAI,EAAE,MAAM,GAAG,KAAK,EAAE,OAAO,GAAG,EAAE;AAAA,MAC9F,CAAC,EAAE,MAAM,CAAC,MAAM;AACd,gBAAQ,MAAM,2BAA2B,CAAC,GAAG,EAAE,CAAC;AAAA,MAClD,CAAC;AAAA,IACH,CAAC;AACL;",
+  "names": []
+}
