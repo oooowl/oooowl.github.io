@@ -1,1 +1,0 @@
-import{o as e,c as a,t,k as o}from"./framework.BaNfDZ-f.js";const r="2.4.1",s={"aria-hidden":"true"},m={__name:"PackageVersion",setup(n){return(c,i)=>(e(),a("desc",s,"Composed with Vue Data UI "+t(o(r)),1))}};export{m as p};
