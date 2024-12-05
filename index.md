@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 项目展示
-      link: /project/index
+      link: /project/intro
     - theme: alt
       text: 项目统计
       link: /chart

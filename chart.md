@@ -1,11 +1,11 @@
 # 项目统计
 
-工作经验 10 年+,累计开发项目数量 100+
+工作经验 10 年+ , 开发项目数量 100+
 
 <script setup>
 import { VueDataUi } from "vue-data-ui";
 import "vue-data-ui/style.css";
-import { ref,onMounted,nextTick  } from "vue";
+import { ref,onMounted  } from "vue";
 
 const config = {
   userOptions: {
@@ -50,6 +50,7 @@ const config = {
   type: "polar",
 };
 
+
 const dataset = [
   { name: "电商", values: [30] },
   { name: "制造业", values: [30] },
@@ -64,9 +65,10 @@ const dataset = [
 const loading = ref(true);
 
 onMounted(() => {
-  nextTick (() => {
+
+  setTimeout(() => {
     loading.value = false;
-  })
+  },1000)
 })
 
 </script>
