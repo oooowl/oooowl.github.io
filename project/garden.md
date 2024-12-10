@@ -18,6 +18,9 @@
 ::: tip 技术栈
 小程序基于 uniapp 构建  
 使用 uview 组件库  
-嵌入式基于 esp32/arduino 开发，通过 RS485 获取传感器数据， mqtt 进行数据通讯  
-使用 PubSubClient/ ArduinoJson/ nvs_flash
+嵌入式基于 esp32/arduino 开发，通过 mqtt 进行数据通讯  
+空气温湿度传感器使用 dht11  
+土壤湿度传感器使用 RS485/modbus  
+光照传感器使用 BH1750  
+使用 PubSubClient/ ArduinoJson/ nvs_flash/ Wire/ HardwareSerial
 :::
